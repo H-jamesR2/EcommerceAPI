@@ -351,6 +351,7 @@ if success:
 ...
 #### PUT https://localhost:7002/api/Review/1
 ---> Param = /reviewID
+#### POST https://localhost:7002/api/Review/
 
 #### DELETE: https://localhost:7002/api/Review/1
 ---> Param = /reviewID
