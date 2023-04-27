@@ -24,6 +24,7 @@ Reviews( ReviewId,
 #### Sample Response Body:
 if success:
 {
+
     "statusCode": 200,
     "statusDescription": "Success! DiscountS request was completed.",
     "discounts": [
@@ -50,6 +51,7 @@ if success:
 #### GET: https://localhost:7002/api/Discount/1
 if success:
 {
+
     "statusCode": 200,
     "statusDescription": "Success! Discount request was completed.",
     "discounts": null,
@@ -67,6 +69,7 @@ if success:
 
 if failed:
 {
+
     "statusCode": 404,
     "statusDescription": "Error! No DiscountS found matching given ID",
     "discounts": null,
@@ -80,6 +83,7 @@ if failed:
 #### POST: https://localhost:7002/api/Discount/
 if success:
 {
+
     "statusCode": 200,
     "statusDescription": "Success! New Discount request completed.",
     "discounts": null,
@@ -96,6 +100,7 @@ if success:
 }
 if fail:
 {
+
     "statusCode": 400,
     "statusDescription": "Error! Incorrect Discount input",
     "discounts": null,
@@ -109,6 +114,7 @@ if fail:
 #### DELETE: https://localhost:7002/api/Discount/4
 if success:
 {
+
     "statusCode": 204,
     "statusDescription": "Content Successfully REMOVED at ID:4 with no response Body",
     "discounts": null,
@@ -121,6 +127,7 @@ if success:
 
 if fail:
 {
+
     "statusCode": 404,
     "statusDescription": "Error! No DiscountS found matching given ID",
     "discounts": null,
@@ -135,9 +142,9 @@ if fail:
 
 #### GET: https://localhost:7002/api/Product
 #### Sample Response Body:
-
 if success:
 {
+
     "statusCode": 200,
     "statusDescription": "Success! ProductS request was completed.",
     "discounts": null,
@@ -162,9 +169,9 @@ if success:
     "product": null,
     "review": null
 }
-
 if failed (No ProductS):
 {
+
     "statusCode": 200,
     "statusDescription": "Error! No ProductS found..",
     "discounts": null,
@@ -176,6 +183,7 @@ if failed (No ProductS):
 } 
 if failed (No ProductS at givenID):
 {
+
     "statusCode": 200,
     "statusDescription": "Error! No ProductS found matching given ID",
     "discounts": null,
@@ -190,6 +198,7 @@ if failed (No ProductS at givenID):
 #### Sample Request Body:
 if success:
 {
+
     "statusCode": 200,
     "statusDescription": "Success! Product request was completed.",
     "discounts": null,
@@ -205,9 +214,9 @@ if success:
     },
     "review": null
 }
-
 if failed:
 {
+
     "statusCode": 404,
     "statusDescription": "Error! No ProductS found matching given ID",
     "discounts": null,
@@ -221,6 +230,7 @@ if failed:
 #### POST: https://localhost:7002/api/Product/
 ## Sample Input:
 {
+
     "productId": 5,
     "productName": "AppleComputer",
     "productDesc": "Computer from TANGERINE Company",
@@ -230,6 +240,7 @@ if failed:
 #### Sample Request Body:
 if successs
 {
+
     "statusCode": 200,
     "statusDescription": "Success! New Product request completed.",
     "discounts": null,
@@ -247,6 +258,7 @@ if successs
 }
 if failed:
 {
+
     "statusCode": 400,
     "statusDescription": "Error! Incorrect Product input",
     "discounts": null,
@@ -260,6 +272,7 @@ if failed:
 #### PUT: https://localhost:7002/api/Product/1
 ## Sample Input:
 {
+
     "productId": 1,
     "productName": "AppleComputer",
     "productDesc": "Computer from MANGO Company",
@@ -269,6 +282,7 @@ if failed:
 #### Sample Request Body:
 if success:
 {
+
     "statusCode": 204,
     "statusDescription": "Content Successfully UPDATED at ID:1 with no response Body",
     "discounts": null,
@@ -283,6 +297,7 @@ if success:
 #### Sample Request Body:
 if success:
 {
+
     "statusCode": 204,
     "statusDescription": "Content Successfully REMOVED at ID:4 with no response Body",
     "discounts": null,
@@ -298,6 +313,7 @@ if success:
 #### GET https://localhost:7002/api/Review/
 if success:
 {
+
     "statusCode": 200,
     "statusDescription": "Success! ReviewS request was completed.",
     "discounts": null,
