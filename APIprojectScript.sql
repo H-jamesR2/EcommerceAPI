@@ -47,16 +47,41 @@ INSERT INTO Discounts (
 	DiscountName, DiscountPercent
 ) VALUES ("appleDiscount", 0.25);
 
+INSERT INTO Discounts (
+	DiscountName, DiscountDesc, DiscountPercent
+) VALUES ("dellDiscount", "High Bargain BlackFriday Sale!",0.40);
+
 INSERT INTO Products (
 	ProductName, ProductDesc, ProductPrice, DiscountId
 ) VALUES ("AppleComputer", 
 	"Computer from Apple Company",
-	500.25,
+	800.25,
     1);
+
+INSERT INTO Products (
+	ProductName, ProductDesc, ProductPrice, DiscountId
+) VALUES ("DellComputer", 
+	"Computer from Dell Company",
+	250.35,
+    2);
     
 INSERT INTO Reviews(
 	ReviewTitle, ReviewDesc, ReviewRating, ProductId
 ) VALUES ("Apple Mac Review",
-	"This Mac Computer has broken HDMI port; 2 Star and Need a refund!",
-    2,
+	"This Mac Computer has broken HDMI port; 3 Star and Need a refund!",
+    3,
 	1);
+    
+INSERT INTO Reviews(
+	ReviewTitle, ReviewDesc, ReviewRating, ProductId
+) VALUES ("Apple Mac Review",
+	"This Mac Computer is pretty good for running Photoshop.",
+    5,
+	1);
+    
+INSERT INTO Reviews(
+	ReviewTitle, ReviewDesc, ReviewRating, ProductId
+) VALUES ("Dell Laptop Review",
+	"This Computer is garbage and is overheating when I play Crisis >:(",
+    1,
+	2);
