@@ -56,6 +56,7 @@ Reviews( ReviewId,
 <img width="50%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.22.21%20AM.png">
 
 ## API_Calls
+
 ### How to Call API Endpoints
 
 ### 1. Discount API Endpoints: 
