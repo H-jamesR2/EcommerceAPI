@@ -4,7 +4,7 @@ Inspired by the shopify API as the ‘standard’ for API documentation.
 -- CSCI 39537 (Intro to APIs) Final Project
 
 ## Database:
-<img align="right" width="35%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.19.53%20AM.png">
+<img align="right" width="40%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.19.53%20AM.png">
 
 ### Schema:
 Three Tables:
