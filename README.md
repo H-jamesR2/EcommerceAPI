@@ -19,7 +19,9 @@ Reviews( ReviewId,
 )
 
 ## How to Call API Endpoints
-### 1. Discount API Endpoints:
+
+### 1. Discount API Endpoints: 
+	
 #### GET: https://localhost:7002/api/Discount/
 #### Sample Response Body:
 if success:
@@ -48,6 +50,9 @@ if success:
     "review": null
 }
 
+<details> 
+<summary>... </summary>
+	
 #### GET: https://localhost:7002/api/Discount/1
 if success:
 {
@@ -138,6 +143,8 @@ if fail:
     "review": null
 }
 
+</details>
+
 ### 2. Product API Endpoints:
 
 #### GET: https://localhost:7002/api/Product
@@ -193,6 +200,9 @@ if failed (No ProductS at givenID):
     "product": null,
     "review": null
 }
+
+<details> 
+<summary>... </summary>
 
 #### GET: https://localhost:7002/api/Product/1
 #### Sample Request Body:
@@ -308,8 +318,10 @@ if success:
     "review": null
 }
 
+</details>
+
 ....
-### Review API Endpoints:
+### 3. Review API Endpoints:
 #### GET https://localhost:7002/api/Review/
 if success:
 {
