@@ -5,7 +5,7 @@ Inspired by the shopify API as the ‘standard’ for API documentation.
 ## Table of Contents
 1. [Database](##Database)
 2. [About](#About)
-3. [How to Call API Endpoints](## How to Call API Endpoints)
+3. [API_Calls](##API_Calls)
 4. [Schema](##test)
 
 ## Database:
@@ -55,7 +55,8 @@ Reviews( ReviewId,
 #### Reviews Table:
 <img width="50%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.22.21%20AM.png">
 
-## How to Call API Endpoints
+## API_Calls
+### How to Call API Endpoints
 
 ### 1. Discount API Endpoints: 
 	
