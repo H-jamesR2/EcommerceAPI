@@ -5,7 +5,7 @@ Inspired by the shopify API as the ‘standard’ for API documentation.
 ## Table of Contents
 1. [Database](#Database)
 2. [About](#About)
-3. [How to Call API Endpoints](#How to Call API Endpoints)
+3. [API_Calls](#API_Calls)
 4. [Schema](#test)
 
 ## Database:
