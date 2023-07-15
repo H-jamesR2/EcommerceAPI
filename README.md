@@ -3,6 +3,28 @@ Inspired by the shopify API as the ‘standard’ for API documentation.
 
 -- CSCI 39537 (Intro to APIs) Final Project
 
+## Database:
+<img align="right" width="35%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.19.53%20AM.png">
+
+### Schema:
+Three Tables:
+
+Discounts:
+- Name, DiscountPercent
+
+Products:
+- Name, Price, ProductDiscounts
+
+Reviews:
+- Title, Description, Rating, ReviewProductId
+
+<br>
+<br>
+<br>
+
+### Database Script:
+<img width="50%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/API_pitch_gifgif.gif">
+
 ## About
 Three Tables:
 
@@ -17,6 +39,16 @@ Products ( ProductId,
 Reviews( ReviewId,
 	ReviewTitle, ReviewDesc, ReviewRating, ProductId
 )
+
+### EndPoints Table:
+#### Discounts Table:
+<img width="50%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.22.31%20AM.png">
+
+#### Products Table:
+<img width="50%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.22.10%20AM.png">
+
+#### Reviews Table:
+<img width="50%" height="auto" src="https://github.com/H-jamesR2/EcommerceAPI/blob/main/ImageVideoFiles/Screen%20Shot%202023-07-15%20at%202.22.21%20AM.png">
 
 ## How to Call API Endpoints
 
